@@ -4,7 +4,7 @@
       <span class="pointer js-package-select">{{{_highlightResult.name.value}}}</span>
       {{#if gitUrl}}
         <img class="icon js-clippy" src="clippy.svg" alt="Copy to clipboard" data-clipboard-text="meteor add {{name}}" data-toggle="tooltip" data-trigger="hover" title="Copy to clipboard">
-        <a href="{{gitUrl}}" target="_blank"><img class="icon" src="github.svg" alt="Link to github" data-toggle="tooltip" data-trigger="hover" title="Link to GitHub"></a>
+        <a href="{{gitUrl}}" target="_blank"><img class="icon" src="github.svg" alt="Link to github" data-toggle="tooltip" data-trigger="hover" title="Link to Source"></a>
       {{/if}}
       {{#unless packageSelected}}
         ({{version}} released {{fromNow lastUpdated}})
