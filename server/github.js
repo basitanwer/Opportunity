@@ -111,10 +111,10 @@ Meteor.methods({
   },
 });
 
-SyncedCron.add({
-  name: 'GIT: Update',
-  schedule(parser) { return parser.text('every 10 minutes'); },
-  job() { githubsUpdate(); },
-});
+// SyncedCron.add({
+//   name: 'GIT: Update',
+//   schedule(parser) { return parser.text('every 10 minutes'); },
+//   job() { githubsUpdate(); },
+// });
 
 // githubsUpdate(10);

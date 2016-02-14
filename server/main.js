@@ -17,7 +17,7 @@ isAdmin = uid => {
 };
 
 Meteor.startup(() => {
-  SyncedCron.start();
+  //SyncedCron.start();
 });
 
 Meteor.methods({
